@@ -1,4 +1,5 @@
 Mini-project-1
+
 A game of Rock paper scissors lizard spock
 
 Rock-paper-scissors is a hand game that is played by two people. The players count to three in unison and simultaneously &ldqup;throw” one of three hand signals that correspond to rock, paper or scissors. The winner is determined by the rules:
