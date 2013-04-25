@@ -56,3 +56,34 @@ def name_to_number(name):
     # don't forget to return the result!
 
 
+def rpsls(name): 
+    # fill in your code below
+
+
+    name = 
+
+    # convert name to player_number using name_to_number
+
+    # compute random guess for comp_number using random.randrange()
+
+    # compute difference of player_number and comp_number modulo five
+
+	# use if/elif/else to determine winner
+
+    # convert comp_number to name using number_to_name
+    
+    # print results
+
+    
+# test your code
+rpsls("rock")
+rpsls("Spock")
+rpsls("paper")
+rpsls("lizard")
+rpsls("scissors")
+
+# always remember to check your completed program against the grading rubric
+
+
+
+
