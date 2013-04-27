@@ -13,6 +13,8 @@
 
 # helper functions
 
+import random
+
 def number_to_name(number):
 
     
@@ -28,8 +30,7 @@ def number_to_name(number):
         return 'lizard'
     elif number == 4:
         return 'scissors'
-    else:
-        return 'This choice is not allowed'
+    
     
     # convert number to a name using if/elif/else
     # don't forget to return the result!
@@ -48,8 +49,7 @@ def name_to_number(name):
         return 3
     elif name == 'scissors':
         return 4
-    else:
-        return 'This choice is not allowed'
+    
     
 
     # convert name to number using if/elif/else
@@ -59,8 +59,33 @@ def name_to_number(name):
 def rpsls(name): 
     # fill in your code below
 
+    
+    player_number = name_to_number(name)
+    name = player_number
+    comp_number = random.randrange(0, 5)
+    result = (comp_number - player_number) % 5
+    player_name = number_to_name
 
-    name = 
+    if result == 1 or result == 2:
+        print ('Player chooses', number_to_name(name))
+        print ('Computer chooses', number_to_name(comp_number))
+        print ('Computer wins!')
+        print ()
+    elif result == 3 or result == 4:
+        print ('Player chooses', number_to_name(name))
+        print ('Computer chooses', number_to_name(comp_number))
+        print ('Player wins!')
+        print ()
+    elif result == 0:
+        print ('Player chooses', number_to_name(name))
+        print ('Computer chooses', number_to_name(comp_number))
+        print ('Player and computer tie!')
+        print ()
+    
+                                     
+
+    
+   
 
     # convert name to player_number using name_to_number
 
