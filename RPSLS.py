@@ -1,4 +1,4 @@
-# Rock-paper-scissors-lizard-Spock template
+# Rock-paper-scissors-lizard-Spock
 
 
 # The key idea of this program is to equate the strings
@@ -11,14 +11,11 @@
 # 3 - lizard
 # 4 - scissors
 
-# helper functions
 
 import random
 
 def number_to_name(number):
 
-    
-    # fill in your code below
 
     if number == 0:
         return 'rock'
@@ -31,12 +28,8 @@ def number_to_name(number):
     elif number == 4:
         return 'scissors'
     
-    
-    # convert number to a name using if/elif/else
-    # don't forget to return the result!
 
 def name_to_number(name):
-    # fill in your code below
 
 
     if name == 'rock':
@@ -52,12 +45,9 @@ def name_to_number(name):
     
     
 
-    # convert name to number using if/elif/else
-    # don't forget to return the result!
 
 
 def rpsls(name): 
-    # fill in your code below
 
     
     player_number = name_to_number(name)
@@ -81,23 +71,7 @@ def rpsls(name):
         print ('Computer chooses', number_to_name(comp_number))
         print ('Player and computer tie!')
         print ()
-    
-                                     
 
-    
-   
-
-    # convert name to player_number using name_to_number
-
-    # compute random guess for comp_number using random.randrange()
-
-    # compute difference of player_number and comp_number modulo five
-
-	# use if/elif/else to determine winner
-
-    # convert comp_number to name using number_to_name
-    
-    # print results
 
     
 # test your code
