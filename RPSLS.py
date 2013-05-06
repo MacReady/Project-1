@@ -50,8 +50,8 @@ def name_to_number(name):
 def rpsls(name): 
 
     
-    player_number = name_to_number(name)
-    name = player_number
+    
+    
     comp_number = random.randrange(0, 5)
     result = (comp_number - player_number) % 5
     player_name = number_to_name
